@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "ds-kinghost-d555d": {
+    "host": "d555d.vps-kinghost.net",
+    "port": 3306,
+    "url": "",
+    "database": "bancopapai",
+    "password": "aspnet007",
+    "name": "ds-kinghost-d555d",
+    "user": "banco-do-papai-db",
+    "connector": "mysql"
+  }
+}
