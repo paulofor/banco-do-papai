@@ -1,23 +1,25 @@
 {
-  "name": "Cliente",
+  "name": "Movimentacao",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "nome": {
-      "type": "string"
-    },
-    "senha": {
-      "type": "string"
-    },
-    "saldo": {
+    "valor": {
       "type": "number"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "creditoDebito": {
+      "type": "string"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+   
+  },
   "acls": [],
   "methods": {}
 }

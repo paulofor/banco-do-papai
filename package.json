@@ -1,5 +1,5 @@
 {
-  "name": "banco-do-papai",
+  "name": "banco_papai",
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
@@ -11,15 +11,21 @@
     "posttest": "npm run lint && nsp check"
   },
   "dependencies": {
-    "compression": "^1.0.3",
+    "@mean-expert/loopback-sdk-builder": "^2.3.1",
+    "compression": "^1.7.3",
     "cors": "^2.5.2",
-    "helmet": "^3.10.0",
-    "loopback": "^3.19.0",
+    "helmet": "^3.12.2",
+    "loopback": "^3.21.0",
     "loopback-boot": "^2.6.5",
-    "loopback-component-explorer": "^6.0.0",
-    "loopback-connector-mysql": "^6.1.0",
+    "loopback-component-explorer": "^6.1.0",
+    "loopback-component-storage": "^3.5.0",
+    "loopback-connector-mysql": "^5.3.0",
+    "loopback-counts-mixin": "^1.0.1",
+    "request": "^2.88.0",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^2.0.0"
+    "stats-lite": "^2.2.0",
+    "strong-error-handler": "^2.0.0",
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
@@ -31,5 +37,5 @@
     "url": ""
   },
   "license": "UNLICENSED",
-  "description": "banco-do-papai"
+  "description": "Banco do Papai"
 }

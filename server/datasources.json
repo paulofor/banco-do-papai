@@ -8,9 +8,9 @@
     "port": 3306,
     "url": "",
     "database": "bancopapai",
-    "password": "aspnet007",
+    "password": "BancoPap007&",
     "name": "ds-kinghost-d555d",
-    "user": "banco-do-papai-db",
+    "user": "banco_papai",
     "connector": "mysql"
   }
 }

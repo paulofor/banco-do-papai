@@ -4,6 +4,8 @@
       "loopback/common/models",
       "loopback/server/models",
       "../common/models",
+      "../common/models/treino_academia",
+      "../common/models/cosmetic",
       "./models"
     ],
     "mixins": [
@@ -35,7 +37,15 @@
     "dataSource": "db",
     "public": false
   },
+  "ExemploModelo": {
+    "dataSource": "ds-kinghost-d555d",
+    "public": true
+  },
   "Cliente": {
+    "dataSource": "ds-kinghost-d555d",
+    "public": true
+  },
+  "Movimentacao": {
     "dataSource": "ds-kinghost-d555d",
     "public": true
   }
